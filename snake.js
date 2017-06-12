@@ -3,15 +3,15 @@
     var Snake = {  
         tbl: null,  
         body: [],  
-        //NowDirection,values:0,1,2,3, up,right,down,left,change it by keyboard  
+        //Now Direction,values:0,1,2,3, up,right,down,left,change it by keyboard  
         direction: 0,  
-        //定时器  
+        //timer  
         timer: null,  
-        //速度  
+        //snake speed  
         speed: 250,  
-        //行数  
+        //map row  
         rowCount: 30,  
-        //列数  
+        //map col  
         colCount: 30,  
         
     }; 
